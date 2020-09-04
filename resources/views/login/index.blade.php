@@ -8,6 +8,7 @@
 <h1>login</h1>
 
 <form method="post">
+    <input type="hidden" name="_token" value="{{csrf_token()}}">
     <table>
         <tr>
             <td>Username</td>
@@ -23,5 +24,6 @@
         </tr>
     </table>
 </form>
+{{session('msg')}}
 </body>
 </html>

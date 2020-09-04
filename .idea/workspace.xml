@@ -20,14 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e68a7b0-bc63-47c2-ba9e-7bdc1f652ecc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/loginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/delete.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/details.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/login/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LogoutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifySession.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/loginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/loginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/delete.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/delete.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/details.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/login/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,18 +162,24 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gGuc5mw9b3iENIdtRQP8e7OXHW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/home" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\academic\11th semester\atp3\Excercises\php\php-laravel-app\Laravel-app\resources\views\home" />
       <recent name="G:\academic\11th semester\atp3\Excercises\php\php-laravel-app\Laravel-app\app\Http\Controllers" />
     </key>
   </component>
@@ -188,7 +201,13 @@
       <workItem from="1597753419301" duration="699000" />
       <workItem from="1597905056576" duration="2341000" />
       <workItem from="1598163363226" duration="3046000" />
-      <workItem from="1598447508193" duration="3776000" />
+      <workItem from="1598447508193" duration="4250000" />
+      <workItem from="1598512308635" duration="2306000" />
+      <workItem from="1598556216014" duration="19000" />
+      <workItem from="1598899826568" duration="7438000" />
+      <workItem from="1598937305827" duration="3412000" />
+      <workItem from="1598940983204" duration="1346000" />
+      <workItem from="1599227831442" duration="2293000" />
     </task>
     <servers />
   </component>
@@ -206,5 +225,14 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="39" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598900770891">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="440" y="39" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1598900770891" />
   </component>
 </project>
